@@ -1,0 +1,77 @@
+body {
+  background-color: #f4d04e;
+}
+.container {
+  background: #ffffff;
+  width: 384px;
+  border-radius: 20px;
+  border: solid 1px #000000;
+  box-shadow: 8px 8px 0px 0px #000000;
+  margin: 215px auto;
+  align-items: center;
+}
+.image1 {
+  margin: 25px 25px 0px 25px;
+  border-radius: 20px;
+}
+.bio {
+  width: 330px;
+}
+
+p {
+  color: var(--color-gray-500, #6b6b6b);
+  margin-left: 25px;
+  font-family: Figtree;
+  font-size: var(--font-size-text-preset-2, 16px);
+  font-style: normal;
+  font-weight: 500;
+}
+h2 {
+  margin-left: 25px;
+  font-family: Figtree;
+  font-size: var(--spacing-200, 24px);
+  width: 384px;
+  font-style: normal;
+  font-weight: 800;
+}
+h2:hover{
+    color: var(--color-yellow, #F4D04E);
+    cursor: pointer;
+
+}
+.button {
+  color: #000000;
+  margin: 15px 0px 0px 25px;
+  padding: 7px;
+  background-color: #f4d04e;
+  border-radius: 5px;
+  font-family: Figtree;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  width: 50px;
+}
+.button:hover {
+  cursor: pointer;
+}
+.time {
+  font-size: small;
+}
+.avatar {
+  width: 32px;
+  height: 32px;
+}
+.autor {
+  color: var(--color-gray-950, #111);
+  /* text-preset-3-bold */
+  font-family: Figtree;
+  font-size: var(--font-size-text-preset-3, 14px);
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%; /* 21px */
+  display: flex;
+  align-items: center; /* Centra verticalmente */
+}
+.imgavatar{
+    margin-right: 10px;
+}
